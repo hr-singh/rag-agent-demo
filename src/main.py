@@ -10,10 +10,10 @@ if not os.getenv("OPENAI_API_KEY"):
     print("OPENAI_API_KEY is not set. Copy .env.example to .env and add your key.")
     sys.exit(1)
 
-from agent import ask, new_conversation  # noqa: E402
+from agent import ask, new_conversation
 
 def main():
-    print("TechNova Gadgets support agent (RAG demo). Type 'exit' to quit.\n")
+    print("TechNova Gadgets support agent. Type 'exit' to quit.\n")
     history = new_conversation()
     while True:
         try:

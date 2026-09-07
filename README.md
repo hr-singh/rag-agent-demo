@@ -8,7 +8,7 @@ Chroma vector store built from a small set of sample docs (a fictional company,
 ## Setup
 
 ```bash
-cd D:/projects/rag-agent
+cd <path-to-project>
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
